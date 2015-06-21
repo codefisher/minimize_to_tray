@@ -1,0 +1,28 @@
+{
+    "translate_description": true,
+    "name": "MinimizeToTray Plus",
+    "default_locale": "en-US",
+    "creator": "Michael Buckley",
+    "description": "Minimizes the application to the system tray.",
+    "icon": "minimize.png",
+    "pref_root": "extensions.minimizetotray_plus.",
+    "buttons": ["mttp-minimize-button"],
+    "menuitems": ["mttp-minimize-button"],
+    "add_to_main_toolbar": ["mttp-minimize-button"],
+    "menu_placement": "file",
+    "restartless": true,
+    "unpack": true,
+    "use_keyboard_shortcuts": true,
+    "include_icons_for_custom_window": true,
+    "applications": "all",
+    "version": "1.5",
+    "new_button_prefix": "mttp-",
+    "image_path": ["./icons"],
+    "extension_id": "{de1b245c-de57-11da-ba2d-0050c2490048}",
+    "homepage": "http://codefisher.org/minimizetotray/",
+    "projects": [
+        "buttons"
+    ],
+    "javascript_object": "minimizetotrayplus",
+    "chrome_name": "minimizetotray_plus"
+}

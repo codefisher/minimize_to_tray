@@ -1,0 +1,7 @@
+<toolbarbutton
+	class="toolbarbutton-1 chromeclass-toolbar-additional"
+	id="mttp-minimize-button"
+	label="&mttp-minimize-button.label;"
+	tooltip="&mttp-minimize-button.tooltip;"
+	accesskey="&mttp-minimize-button.accesskey;"
+	oncommand="minimizetotrayplus.minimize();"/>
